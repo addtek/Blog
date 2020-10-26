@@ -1,22 +1,14 @@
 import React from "react"
 import '../styles/Homepage.css'
 import first from "../asserts/bg.webp"
-import sec from "../asserts/bg.webp"
+import {Link} from 'react-router-dom'
+
 
 function Navbar(){
     return(
         <>
         <div>
-            <nav >
-                <ul className='nav-item'>
-                    <li className='nav-list-left' >Juvian maker space</li>
-                        <div className='right'>
-                            < li className='nav-list'>Home</ li>
-                            < li className='nav-list'>Blog</ li>
-                            < li className='nav-list'>Electronics 101</ li>
-                        </div>
-                </ul>
-            </nav>
+         
        
         <div className='main-imagecontainer'>
            <div className='image-container'> 
@@ -131,7 +123,42 @@ function Navbar(){
           
         </div>
         
-        
+        <div className='contact'>
+            <div className='row'>
+                 <div className='col-2-'>
+                       <h3>Contact</h3>
+                        <address>
+                            Koforidua,Ghana <br/>
+                            <Link to="mailto:bernyx.owusu@gmail.com">Juvian Maker Space</Link><br/>
+                            0542764646
+                        </address>
+                    </div>
+
+                    <div className='col-2'>
+                            <form>
+                                <div>
+                                     <input type='text' placeholder='Name'/>
+                                     <input type='email' placeholder='Email'/>
+                                </div>
+
+                                <div>
+                                     <input type='tel' placeholder='Phone'/>
+                                     <input type='address' placeholder='Address'/>
+                                </div>
+
+                                <div>
+                                    <input type='text' placeholder='Subject'/>
+                                </div>
+
+                                <div>
+                                    <input type='textarea' placeholder='Subject'/>
+                                </div>
+
+                                <button>Submit</button>
+                            </form>
+                    </div>
+            </div>
+        </div>
         
         
         

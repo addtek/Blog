@@ -1,0 +1,42 @@
+nav{
+    display: flex;
+    background-color: black;
+    width: 100%;
+  
+height: 80px;
+}
+
+nav .nav-item{
+    list-style-type: none;
+    display: flex;
+  align-items: center;
+}
+
+nav .right {
+    /* display: flex;
+    align-content: flex-end;
+    justify-content: center;
+    align-items: flex-end; */
+    float: right;
+}
+
+.right > a{
+
+  color: white;
+  text-decoration: none;
+  
+}
+.right >a .nav-list{
+    display: inline;
+    padding: 20px;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+nav .nav-list-left{
+    color: white;
+    float: left;
+   padding-right: 900px;
+   font-size: larger;
+
+}

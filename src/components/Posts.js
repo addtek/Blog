@@ -1,4 +1,4 @@
-[{
+ export const Posts =[{
     "id": "1",
     "title" : "New Post 1",
     "author": "Bernice",
@@ -38,3 +38,4 @@
 
 
 ]
+
