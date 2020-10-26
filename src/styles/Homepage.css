@@ -1,0 +1,188 @@
+nav{
+    display: flex;
+    background-color: black;
+    width: 100%;
+  
+height: 80px;
+}
+
+nav .nav-item{
+    list-style-type: none;
+    display: flex;
+  align-items: center;
+}
+
+nav .right{
+    /* display: flex;
+    align-content: flex-end;
+    justify-content: center;
+    align-items: flex-end; */
+    float: right;
+}
+
+nav .nav-list{
+  
+   color: white;
+  display: inline;
+ padding:40px ;
+ font-weight: lighter;
+ 
+}
+
+nav .nav-list-left{
+    color: white;
+    float: left;
+   padding-right: 900px;
+   font-size: larger;
+
+}
+
+.main-imagecontainer{
+    background-color: rgb(49, 47, 47);
+    /* position: fixed; */
+    position: relative;
+}
+.image-container{
+ padding: 80px;
+ 
+ 
+ 
+};
+
+.back{
+   
+ background-size: contain;
+    /* position: absolute */
+
+   
+}
+
+.welcome {
+    background-color: rgb(49, 47, 47);
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    padding: 70px;
+  /* position: absolute; */
+}
+
+.welcome h2{
+  position: relative;
+    align-self: center;
+    font-size: 80px;
+    font-weight: lighter;
+    color: gold;
+    margin-bottom: 20px;
+}
+
+.welcome h4{
+    align-self: center;
+ 
+}
+
+.welcome p {
+    align-self: center;
+    padding-left: 240px;
+    padding-right: 240px;
+
+}
+
+.about-container{
+    background-image: url('../asserts/sec.webp');
+    width: 100%;
+    height: 500px;
+}
+
+
+.about-text{
+    color: white;
+   display: flex;
+  flex-direction: column;
+  justify-content: center;
+align-content: center;
+margin-left: 400px;
+padding-top: 100px;
+}
+
+.about-text p{
+
+   padding-right: 550px; 
+}
+
+.workshops{
+    background-color: black;
+    color: white;
+    margin-top: -20px;
+}
+
+.workshop-title{
+    padding: 50px;
+    margin-left: 550px;
+}
+.workshop-title h4{
+    padding-left: 100px;
+}
+.workshop-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 40px;
+
+}
+
+.details-container{
+    padding: 40px;
+    margin-right: 50px;
+    margin-left: 50px;
+  
+}
+
+.details-image{
+    background-image: url('../asserts/ws.webp');
+    width: 100%;
+    height: 400px;
+}
+
+.details{
+    background-color: rgb(49, 47, 47);
+   
+   padding-top: 100px;
+   padding-bottom: 100px;
+ padding-left: 50px;
+  padding-right: 50px;
+    
+}
+
+.details-image1{
+    background-image: url('../asserts/ws1.webp');
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+}
+
+.details-image2{
+    background-image: url('../asserts/ws3.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+    width: 100%;
+    /* height: 400px; */
+}
+
+.details-image3{
+    background-image: url('../asserts/ws6.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+    width: 100%;
+    /* height: 400px; */
+}
+
+.details-image4{
+    background-image: url('../asserts/ws7.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+    width: 100%;
+    /* height: 400px; */
+}
