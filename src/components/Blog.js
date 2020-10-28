@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { useHistory } from 'react-router-dom';
 
 function Blog(props){
-    const [posts, setPosts] = useState(props.posts),{match}=props
+    const {match,posts}=props
     const history =useHistory()
     let hasmatch = match.params.topicId && posts.filter((post)=>post.title===match.params.topicId.split('-').join(" ")),article;
     
